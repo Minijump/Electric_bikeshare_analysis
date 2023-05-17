@@ -6,3 +6,4 @@ CREATE TABLE My_data.Gender AS
                     ELSE 0 
                  END AS gender_id
     FROM My_data.Trips
+    WHERE member_gender IS NOT NULL;
