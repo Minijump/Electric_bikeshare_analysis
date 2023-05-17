@@ -7,4 +7,4 @@ create table My_data.Trips as
         subscriber_type,
         2023 - member_birth_year as age,
         member_gender
-  from Raw_data.Trips
+  from Raw_data.Trips;
