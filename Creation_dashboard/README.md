@@ -3,6 +3,6 @@ The tool will be created with Power BI. Power BI allows a connection with Google
 # Stuctrure the data
 As told beforhand Google BigQuerry does not enable to reference tables between each other. We will us Power Bi to do it. Below lays the schema of our database, you notice that a new table appeared (coordinates). This table isn't usefull and could be deleted. I created it struggling to inform Power BI that 'lat' and 'lon' was coordinates, however since then I found a way to do it directly in the table Station_info, which would have been more efficient.
 
-<img src="../Images/structure_db.png" alt="structure db" width="500">
+<img src="../Images/structure_db.png" alt="structure db" width="1000">
 
 After that, some calculations and some filtering had to be done to have acceptable figures but in overall there was no major challenges.
