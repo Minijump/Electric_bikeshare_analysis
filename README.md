@@ -1,5 +1,5 @@
 # Electric bikeshare analysis
-## ----------------------------------------- IN PROGRESS----------------
+### _IN PROGRESS----------------------------_
 
 ## Foreword
 We are in the midst of an ecological transition. Mobility represents a significant part of our CO2 emissions, and as such, changing the way we move ourselves will play a crucial role in the transition. While public transportation can solve some problems for longer trips, it does not always provide the flexibility required for efficient day-to-day transportation. That's where 'light vehicles' like bikes come in. A city's bike share network represents an affordable, accessible, and sustainable alternative to traditional transportation methods. By using bike share programs, people can reduce their carbon footprint and promote healthier, more active lifestyles.
@@ -16,7 +16,7 @@ Also I want this tool to be connected to a database in real time. Indeed, to be 
 ## Execution steps
 
 * Get Data  
-* Build a DataBase  __IN PROGRESS__
+* Build a DataBase __IN PROGRESS__ 
 * Create the Power BI dashboard  __TODO__
 
 ### Get Data
@@ -26,4 +26,4 @@ You will find the structure of the tables I used in the file [Get_data](./Get_da
 
 
 ### Build a DataBase
-I will now build a database from this data to make it more usable.
+The data given by Google BigQuerry contains a lot of redudencies and useless columns for our objectives. I will know build a more usable database. You can find the scripts used to do it in the folder [Create_db](./Create_db).
