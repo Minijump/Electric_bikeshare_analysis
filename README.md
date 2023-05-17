@@ -16,8 +16,8 @@ Also I want this tool to be connected to a database in real time. Indeed, to be 
 ## Execution steps
 
 * Get Data  
-* Build a DataBase __IN PROGRESS__ 
-* Create the Power BI dashboard  __TODO__
+* Build a DataBase 
+* Create the Power BI dashboard  __IN PROGRESS__
 
 ### Get Data
 I will use the open data provided by Google BigQuerry on the BikeShare service of San Francisco(name of the database: bigquery-public-data.san_francisco_bikeshare). You can also find more informations about this bikeshare service on the following link : https://www.sfmta.com/getting-around/bike/bike-share.
@@ -27,3 +27,6 @@ You will find the structure of the tables I used in the file [Get_data](./Get_da
 
 ### Build a DataBase
 The data given by Google BigQuerry contains a lot of redudencies and useless columns for our objectives. I will know build a more usable database. You can find the scripts used to do it in the folder [Create_db](./Create_db).
+
+### Create the dashboard
+I will now create the dashboard with power bi __in progress__
